@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">List of affairs</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="about">Простенька программа "Список справ на день" \n\n Версія 0.0.3 альфа. \n Нью фічі coming soon.</string>
+    <string name="usingterms">Тут будуть добавлені умови використання в найближчих версіях. \n\n\n Coming soon...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
