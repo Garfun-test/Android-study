@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startPageFragment">
+
+    <fragment
+        android:id="@+id/startPageFragment"
+        android:name="com.example.myapp.startpage.StartPageFragment"
+        android:label="StartPageFragment" >
+        <action
+            android:id="@+id/action_startPageFragment_to_addAffairsFragment"
+            app:destination="@id/addAffairsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addAffairsFragment"
+        android:name="com.example.myapp.addaffairs.AddAffairsFragment"
+        android:label="AddAffairsFragment" >
+        <action
+            android:id="@+id/action_addAffairsFragment_to_toDoListFragment"
+            app:destination="@id/toDoListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.myapp.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/usingTermsFragment"
+        android:name="com.example.myapp.UsingTermsFragment"
+        android:label="fragment_using_terms"
+        tools:layout="@layout/fragment_using_terms" />
+    <fragment
+        android:id="@+id/toDoListFragment"
+        android:name="com.example.myapp.todolist.ToDoListFragment"
+        android:label="fragment_to_do_list"
+        tools:layout="@layout/fragment_to_do_list" />
+</navigation>
